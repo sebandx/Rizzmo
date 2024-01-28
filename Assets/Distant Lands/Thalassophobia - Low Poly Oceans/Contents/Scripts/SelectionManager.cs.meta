@@ -3,7 +3,9 @@ guid: 1794ad391844f43839474863c8910719
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - highlightMaterial: {fileID: 2100000, guid: e4fc936d5913be9458ccf199a5f78cac, type: 2}
+  - panelToToggle: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
