@@ -2360,3 +2360,1340 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1393.279684 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Particles/Sunshafts (Area).prefab
+  artifactKey: Guid(706ae8fdf6ec04e479928aaa79af230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Particles/Sunshafts (Area).prefab using Guid(706ae8fdf6ec04e479928aaa79af230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebafe9f4548d7a260c0cd45bc0705583') in 0.086318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.498 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 1506ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3714.
+Memory consumption went from 355.8 MB to 353.5 MB.
+Total: 4.792909 ms (FindLiveObjects: 0.264078 ms CreateObjectMapping: 0.199649 ms MarkObjects: 3.685332 ms  DeleteObjects: 0.642929 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.475 seconds
+Domain Reload Profiling: 2019ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (605ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3717.
+Memory consumption went from 363.7 MB to 361.3 MB.
+Total: 4.855494 ms (FindLiveObjects: 0.326827 ms CreateObjectMapping: 0.263389 ms MarkObjects: 3.664243 ms  DeleteObjects: 0.600114 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.512 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.435 seconds
+Domain Reload Profiling: 1948ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1435ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3720.
+Memory consumption went from 371.2 MB to 368.9 MB.
+Total: 4.508975 ms (FindLiveObjects: 0.409178 ms CreateObjectMapping: 0.205696 ms MarkObjects: 3.360564 ms  DeleteObjects: 0.532781 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 759.245514 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 2.prefab
+  artifactKey: Guid(09a0627b74fbd364296f94e6b9e29de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 2.prefab using Guid(09a0627b74fbd364296f94e6b9e29de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8e7d6c91ab0ae73255c156ec8517af') in 0.273396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Coral Bunch.prefab
+  artifactKey: Guid(ce1d903080861dd46896bb49f4d8e342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Coral Bunch.prefab using Guid(ce1d903080861dd46896bb49f4d8e342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8beb8fffb32e8f483d9a2bec7586d4d7') in 0.011172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.181 seconds
+Domain Reload Profiling: 1676ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1182ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (525ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3723.
+Memory consumption went from 378.9 MB to 376.6 MB.
+Total: 4.491253 ms (FindLiveObjects: 0.253137 ms CreateObjectMapping: 0.194385 ms MarkObjects: 3.506067 ms  DeleteObjects: 0.536753 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 131.695016 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4456bcaa4a7b24203241ef252613e106') in 0.011257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 103.907512 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Fish School.prefab
+  artifactKey: Guid(02009fedc15396b40a1ee9bcf1a74207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Fish School.prefab using Guid(02009fedc15396b40a1ee9bcf1a74207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6550b88976346e78c4cca2f6cc60b001') in 0.030214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Hammerhead Shark.prefab
+  artifactKey: Guid(8aaa57f515f4bb54fa6fae441aa0c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Animals/Hammerhead Shark.prefab using Guid(8aaa57f515f4bb54fa6fae441aa0c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00cc496c9673e095bc09c588ebee3f6') in 0.143305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.001 seconds
+Domain Reload Profiling: 1493ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (234ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3727.
+Memory consumption went from 388.6 MB to 386.3 MB.
+Total: 4.828081 ms (FindLiveObjects: 0.273860 ms CreateObjectMapping: 0.194427 ms MarkObjects: 3.760196 ms  DeleteObjects: 0.598692 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 113.269194 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Doorway 1.prefab
+  artifactKey: Guid(e59210a6762c5b045a8b494bc677cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Doorway 1.prefab using Guid(e59210a6762c5b045a8b494bc677cc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e323fc2fe5d0ec99774638646e260a') in 0.091685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window Corner.prefab
+  artifactKey: Guid(39d9d84dc8c78344f9ddff944c64e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window Corner.prefab using Guid(39d9d84dc8c78344f9ddff944c64e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0c9fd6f71dc48faa1bfe09533bf882') in 0.011778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 1.prefab
+  artifactKey: Guid(e5218a087ed0226449e97cc4d30963a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 1.prefab using Guid(e5218a087ed0226449e97cc4d30963a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dce1db9854ea0918686635f70529586') in 0.010748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Side.prefab
+  artifactKey: Guid(4344d4d10f82bc3478cd537fb685c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Side.prefab using Guid(4344d4d10f82bc3478cd537fb685c891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6aaea6f90824bc3853b9d6cfa151399') in 0.008376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 2.prefab
+  artifactKey: Guid(ad7bfc3f2ac5f514fbad4aad30366978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Fancy Wall 2.prefab using Guid(ad7bfc3f2ac5f514fbad4aad30366978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f32f5fda2c03b790375bf7e8bd5dbb') in 0.009178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Pillar Extension.prefab
+  artifactKey: Guid(f1eab71fdaf0c144b8be2f29a026c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Pillar Extension.prefab using Guid(f1eab71fdaf0c144b8be2f29a026c160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6b647dce4cd647a423e24f8d172f8b') in 0.008826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 4.prefab
+  artifactKey: Guid(13b9e73a83c26e7418f59c3d145f31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 4.prefab using Guid(13b9e73a83c26e7418f59c3d145f31a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b3675a81f482f2eab31d7df18214c3') in 0.009691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 2.prefab
+  artifactKey: Guid(43e5195f3789c2a408db1f53c6345bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Roof 2.prefab using Guid(43e5195f3789c2a408db1f53c6345bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58113330ca6668d6a533a3736adc8222') in 0.007998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 3.prefab
+  artifactKey: Guid(2f733e549d212f449b371cc815fb04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Half Cube 3.prefab using Guid(2f733e549d212f449b371cc815fb04a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb852aace7561ab733bde68cc1ac1e90') in 0.016661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tall Column.prefab
+  artifactKey: Guid(e144d04ef40c19549838526e8203efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tall Column.prefab using Guid(e144d04ef40c19549838526e8203efce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40f4fdb10a8c9cdd540e637274b9673') in 0.007266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall Corner.prefab
+  artifactKey: Guid(05d40833416445c4ca119e8327f37820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall Corner.prefab using Guid(05d40833416445c4ca119e8327f37820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3744f1fe899aef2d152f01846e348229') in 0.007672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension 1.prefab
+  artifactKey: Guid(4085fa7fd7a4f1943a24867eed9884ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Tower Extension 1.prefab using Guid(4085fa7fd7a4f1943a24867eed9884ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec48c96b210427bda9f2e2bc8f055dd') in 0.009747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 2.prefab
+  artifactKey: Guid(c9019bbbdc8dc2a4fae5fba8c6d674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Edging Corner 2.prefab using Guid(c9019bbbdc8dc2a4fae5fba8c6d674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399c248d2b91981718289d01080e92de') in 0.009387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall.prefab
+  artifactKey: Guid(7f378312739f0944fb026fe053d4be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Wall.prefab using Guid(7f378312739f0944fb026fe053d4be5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d5759742758857664c34fb7e157e06') in 0.008607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window.prefab
+  artifactKey: Guid(eedd675a63044d04f87ac3caa8931537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Underwater Temple/Window.prefab using Guid(eedd675a63044d04f87ac3caa8931537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94f5a95370ef68fb8db89bf32792e5d') in 0.017826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.540 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.425 seconds
+Domain Reload Profiling: 1965ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1426ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (648ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3730.
+Memory consumption went from 396.8 MB to 394.4 MB.
+Total: 4.824302 ms (FindLiveObjects: 0.280934 ms CreateObjectMapping: 0.218477 ms MarkObjects: 3.726142 ms  DeleteObjects: 0.597756 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 176.036420 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Deep Kelp 1.prefab
+  artifactKey: Guid(2c9c79e2ba27bcd4aa54bea249ebeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Deep Kelp 1.prefab using Guid(2c9c79e2ba27bcd4aa54bea249ebeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f4923ac7e7988c3602fcaba1fe3844') in 0.270741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Kelp 1.prefab
+  artifactKey: Guid(f9e17e174eeb0594fb46c2c514a09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Kelp 1.prefab using Guid(f9e17e174eeb0594fb46c2c514a09f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21d7cc99e63cce5cb769aa6a177adda') in 0.027575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Deep Kelp 3.prefab
+  artifactKey: Guid(8856ca7b309344c4fa13f64d9b34c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Kelp/Deep Kelp 3.prefab using Guid(8856ca7b309344c4fa13f64d9b34c641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95fc74bc6962d5c29992154070e186d') in 0.015995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.438975 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 1.prefab
+  artifactKey: Guid(881614a099b4e4848a86f0fe44bc8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 1.prefab using Guid(881614a099b4e4848a86f0fe44bc8991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daade557c21e9e2f77ab24038181b75') in 0.019561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 6.prefab
+  artifactKey: Guid(4b68fbb1617930f4b856cf5ead648ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 6.prefab using Guid(4b68fbb1617930f4b856cf5ead648ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faac71093151eee4ac96bf72dc99d2d1') in 0.006822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plank 4.prefab
+  artifactKey: Guid(ab883d4ad35b1db47bc204034fb47975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plank 4.prefab using Guid(ab883d4ad35b1db47bc204034fb47975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d87df602b278ae82d72fd0226c70a1') in 0.007174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plank 5.prefab
+  artifactKey: Guid(8069756b6ca9c4a4cb018f673c15ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plank 5.prefab using Guid(8069756b6ca9c4a4cb018f673c15ace7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5703cdadd7521d0fa5784f83695e965c') in 0.006581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 7.prefab
+  artifactKey: Guid(4cb8bf025ae0de3408e2ab09f50bab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 7.prefab using Guid(4cb8bf025ae0de3408e2ab09f50bab0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526ae34170264a2a264c7ceebf820df5') in 0.007714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 9.prefab
+  artifactKey: Guid(f2968b6c77dd2db47ba743a489fa0da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 9.prefab using Guid(f2968b6c77dd2db47ba743a489fa0da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ec4ed16c5659e2ae71e25c8ad62909') in 0.020592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 8.prefab
+  artifactKey: Guid(20826cd97b0f9c346967986f2f7dbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 8.prefab using Guid(20826cd97b0f9c346967986f2f7dbee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5962e4fc9c407a41dad0349cfb786074') in 0.016461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 10.prefab
+  artifactKey: Guid(2b4a2d3038045974fa57be1beb54f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 10.prefab using Guid(2b4a2d3038045974fa57be1beb54f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3aba369e0d2e4f7c1554480833cdd3a') in 0.006580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 9.prefab
+  artifactKey: Guid(40f3f84a737234a458876ff5def96e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Pebble 9.prefab using Guid(40f3f84a737234a458876ff5def96e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ef511d145b6dad787a77d02a4c0209') in 0.008271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 2.prefab
+  artifactKey: Guid(6d18f1a051c024f449833ca073498c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 2.prefab using Guid(6d18f1a051c024f449833ca073498c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400c0b63c2c7db34dfee11e6cc6d8bef') in 0.007058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 5.prefab
+  artifactKey: Guid(b77e6a3308fe84c4a9fbee09af9e4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 5.prefab using Guid(b77e6a3308fe84c4a9fbee09af9e4c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5c6cda7da025b5ecbbb4c500c94ddf') in 0.012036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 1.prefab
+  artifactKey: Guid(edb3308b2d1f7034b87ca5672d8def8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Debris/Plate 1.prefab using Guid(edb3308b2d1f7034b87ca5672d8def8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063f5193ec4a417976f87257ee7486fb') in 0.013776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.456395 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 01.prefab
+  artifactKey: Guid(012a017ea0275474db1390c10ef8baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 01.prefab using Guid(012a017ea0275474db1390c10ef8baa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b4a66270958a8d17bbb3566ad55937') in 0.010818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 07.prefab
+  artifactKey: Guid(a1bc6c720c39adf45bb6285920da444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 07.prefab using Guid(a1bc6c720c39adf45bb6285920da444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc4da267c60a55d06735557c4c08e5e') in 0.008637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 10.prefab
+  artifactKey: Guid(9742512d73c594a4daac0928fb4d8bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 10.prefab using Guid(9742512d73c594a4daac0928fb4d8bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28953711ff0dcb1d7cf2bcee7482de19') in 0.007720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 18.prefab
+  artifactKey: Guid(81e36ff8bdf1532409c930d9b7c35d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 18.prefab using Guid(81e36ff8bdf1532409c930d9b7c35d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1bb0fb405e4ec3e264ab06966b0f90') in 0.007765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 1.prefab
+  artifactKey: Guid(e13c2692770c9e348b359af1d8dd2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 1.prefab using Guid(e13c2692770c9e348b359af1d8dd2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4881dadde45383cb2b7709e173529b1') in 0.031268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 12.prefab
+  artifactKey: Guid(074e162eaa168ef49966f5fed7541d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 12.prefab using Guid(074e162eaa168ef49966f5fed7541d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6bec3a3e94e81ae13587c54f58a754') in 0.016641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 16.prefab
+  artifactKey: Guid(1cdb49e4fa1591945a2f8716eab77c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 16.prefab using Guid(1cdb49e4fa1591945a2f8716eab77c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98ab80aa5bc0e2a92f01ad9ecbda26a') in 0.007236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 17.prefab
+  artifactKey: Guid(eeb99880f0c6bfd44b2ded3a08e260a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 17.prefab using Guid(eeb99880f0c6bfd44b2ded3a08e260a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3ebfd81bd4c4d5fb78b0de173e6ccd') in 0.008637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 04.prefab
+  artifactKey: Guid(5254253a43581724f8b9f4d73fb6ce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 04.prefab using Guid(5254253a43581724f8b9f4d73fb6ce42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871fd65cd6f60fe56d0a126bcfe3481a') in 0.007709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 13.prefab
+  artifactKey: Guid(ce1ce0b831050604ebc339b7681b5537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Iceberg 13.prefab using Guid(ce1ce0b831050604ebc339b7681b5537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1e2cd37337e88e281bc7f8e0e448ce') in 0.009623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 5.prefab
+  artifactKey: Guid(67475002e89b2b048824d8d087fe74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 5.prefab using Guid(67475002e89b2b048824d8d087fe74fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd0045be7126d2f424990fb994e21c1') in 0.016692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 2.prefab
+  artifactKey: Guid(c783e7d0bf7e3b146ab1ac1dec0ec524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Ice/Large Iceberg 2.prefab using Guid(c783e7d0bf7e3b146ab1ac1dec0ec524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4112023f106e4cff65ff4992015d218') in 0.011595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 83.759984 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b6e5edc727093ff13b686a3f1b7ad2') in 0.012168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.157878 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bf27269ed5cbb8c9392b66a33cab6c') in 0.190081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.516 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.022 seconds
+Domain Reload Profiling: 1538ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1023ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (668ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (529ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3733.
+Memory consumption went from 405.1 MB to 402.7 MB.
+Total: 6.085875 ms (FindLiveObjects: 0.337468 ms CreateObjectMapping: 0.275573 ms MarkObjects: 4.774553 ms  DeleteObjects: 0.696883 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 94.065386 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97c94cceeb8fceb64b567910f04dee1') in 0.071035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.075228 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ad3777507509dd00ff72e1b9cf237c') in 0.013289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 3.prefab
+  artifactKey: Guid(f73d81fb6d5869f48bfba58f808009b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 3.prefab using Guid(f73d81fb6d5869f48bfba58f808009b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078d43af23e8c0ef3fa5d2f72c6a9374') in 0.006352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab
+  artifactKey: Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab using Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d3ba6cf58fc4860c4b6e908ca935c3') in 0.008606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 31.139654 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5c37576128dd2076f82d9d9007d774') in 0.012489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89637c738d76c981fcbdabed2981642') in 0.008559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 31.734703 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a34ffac5a0bbca1ddb9bdceced357c') in 0.009887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.074859 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88ca3f4abf75318c90f9b6673ed2fdd') in 0.013484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab
+  artifactKey: Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab using Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c57adf0e0608b665d9fe846f8dd6c5') in 0.006672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 220.533162 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 1.prefab
+  artifactKey: Guid(59e0e737595ea9c4491a3f75e11b09ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 1.prefab using Guid(59e0e737595ea9c4491a3f75e11b09ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc4df40cc5198b9dbadd90681f3fe1e') in 0.008844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 19.627983 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9d007de6474f6a22bd3d7cebdc1f80') in 0.009543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 3.prefab
+  artifactKey: Guid(f73d81fb6d5869f48bfba58f808009b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 3.prefab using Guid(f73d81fb6d5869f48bfba58f808009b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f98008356306b028c2d19cd2324121f') in 0.006909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab
+  artifactKey: Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab using Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0352032631d6d4f0551fcda6a4cba9') in 0.032220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 56.200364 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb548cb576aaf0ecf081811623537b16') in 0.009524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.079609 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab
+  artifactKey: Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 1.prefab using Guid(955d4a76c47cecc498b3460164eedc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c070c8546b5d2813ae5df6b2608b03f0') in 0.009521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab
+  artifactKey: Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 4.prefab using Guid(b26225a3f22c6794fb592a754df98bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0d54eae5f28870a5ddb9e10682d38') in 0.006723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.908802 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 1.prefab
+  artifactKey: Guid(5fc2dbe44ac3caa4d933907d7a63f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 1.prefab using Guid(5fc2dbe44ac3caa4d933907d7a63f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbf220401bb5ef2c260740239d0e8c6') in 0.051185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 5.prefab
+  artifactKey: Guid(9250ff7867c5a8c41a63a0d0c3bfce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 5.prefab using Guid(9250ff7867c5a8c41a63a0d0c3bfce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb4b5fa1af32450def8c4125b973343') in 0.009492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 3.prefab
+  artifactKey: Guid(bcdca1794f4dd4e4591c2312a55fd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 3.prefab using Guid(bcdca1794f4dd4e4591c2312a55fd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a08b46291aa1735dfa8f32b73444b3') in 0.007955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 70.422881 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 2.prefab
+  artifactKey: Guid(6913e6f7631a56841a577796a3cd6cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 2.prefab using Guid(6913e6f7631a56841a577796a3cd6cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdbfd14fe1aa85db6bdfdc0cb90b0a7') in 0.011541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.065781 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 1.prefab
+  artifactKey: Guid(93998113187b06d448ce672e88682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 1.prefab using Guid(93998113187b06d448ce672e88682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4229160887a7d0688ba071c9285c11') in 0.007118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 34.374527 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 2.prefab
+  artifactKey: Guid(d56af4480454b084ebe858707bbd9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 2.prefab using Guid(d56af4480454b084ebe858707bbd9243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6196f7c635e8897fed562ca08e48b3') in 0.006971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 77.846604 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 2.prefab
+  artifactKey: Guid(6913e6f7631a56841a577796a3cd6cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 2.prefab using Guid(6913e6f7631a56841a577796a3cd6cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5546fc989f59b6141f79fb1e410b2e68') in 0.007036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 17.523509 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 1.prefab
+  artifactKey: Guid(93998113187b06d448ce672e88682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Tube Coral 1.prefab using Guid(93998113187b06d448ce672e88682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836379a2f16d5315693ceb7fa7b1f66b') in 0.007233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002939 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab
+  artifactKey: Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Soft Corals/Bulbous Coral 5.prefab using Guid(d078d564203c4ca448342a04587b40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162201099d34b6db80086bb39009b230') in 0.006488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 130.967206 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 1.prefab
+  artifactKey: Guid(8c2e31a1889569e43917575d42db026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 1.prefab using Guid(8c2e31a1889569e43917575d42db026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7461a196b54a7a1d2efa2b98ecf19251') in 0.012534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 4.prefab
+  artifactKey: Guid(25be8fc95f73ae841b512164f55f22ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 4.prefab using Guid(25be8fc95f73ae841b512164f55f22ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a7a6ce0263f61a4a7920716b40fa13') in 0.008515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 25.688802 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 1.prefab
+  artifactKey: Guid(8c2e31a1889569e43917575d42db026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 1.prefab using Guid(8c2e31a1889569e43917575d42db026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e6447de7cb3ea28d287a782da440ef') in 0.012543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 3.prefab
+  artifactKey: Guid(f41bfabebbe6d784aa42faf55586c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 3.prefab using Guid(f41bfabebbe6d784aa42faf55586c692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7599defa37db8a6668657b1091bede0a') in 0.006854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.600110 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 1.prefab
+  artifactKey: Guid(5fc2dbe44ac3caa4d933907d7a63f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 1.prefab using Guid(5fc2dbe44ac3caa4d933907d7a63f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f18fe0b1aeaf5acdeb8870dfc0e2a48') in 0.011378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 2.prefab
+  artifactKey: Guid(60683972fdbd8df489388dd8799d064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 2.prefab using Guid(60683972fdbd8df489388dd8799d064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2305b038296e2cfde5ee6411513eecc9') in 0.006427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 5.prefab
+  artifactKey: Guid(9250ff7867c5a8c41a63a0d0c3bfce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 5.prefab using Guid(9250ff7867c5a8c41a63a0d0c3bfce1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c745c57847d61a2123ed9933ebbcd33b') in 0.008111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 4.prefab
+  artifactKey: Guid(5515749dada02f2498477ab13833e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Large Shelf Coral 4.prefab using Guid(5515749dada02f2498477ab13833e3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5c229e66e606178c0bac489b49bdad') in 0.008747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 6.prefab
+  artifactKey: Guid(42d54c719755f4a4388aa139f4095878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Shelf Coral 6.prefab using Guid(42d54c719755f4a4388aa139f4095878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7631063f918124f40183db4aa852383') in 0.010063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 98.863937 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 4.prefab
+  artifactKey: Guid(25be8fc95f73ae841b512164f55f22ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Prefabs/Environment/Coral/Hard Coral/Batched Coral 4.prefab using Guid(25be8fc95f73ae841b512164f55f22ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba961dcd42d97a589c6dfa340fa3f21') in 0.011622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.494 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 1430ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (935ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (604ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3736.
+Memory consumption went from 413.1 MB to 410.8 MB.
+Total: 4.950025 ms (FindLiveObjects: 0.268879 ms CreateObjectMapping: 0.211151 ms MarkObjects: 3.836145 ms  DeleteObjects: 0.632735 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.999 seconds
+Domain Reload Profiling: 1500ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (999ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.3 MB). Loaded Objects now: 3739.
+Memory consumption went from 421.0 MB to 418.7 MB.
+Total: 5.496109 ms (FindLiveObjects: 0.275863 ms CreateObjectMapping: 0.226594 ms MarkObjects: 4.367946 ms  DeleteObjects: 0.624246 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

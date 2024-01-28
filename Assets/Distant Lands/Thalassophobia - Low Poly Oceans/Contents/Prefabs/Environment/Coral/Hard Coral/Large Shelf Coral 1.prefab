@@ -119,4 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d30f1cbbe2ff4c41b4940a67240c5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Large Shelf Coral TEST
+  description: 'Shelf coral | Scientific Name: Montipora capricornis. A type of shelf
+    coral. This flat, mushroom-shaped plant is a hard coral of the stony coral species.
+    Their pattern of growth is optimized to increase exposed surface area and access
+    to light.'

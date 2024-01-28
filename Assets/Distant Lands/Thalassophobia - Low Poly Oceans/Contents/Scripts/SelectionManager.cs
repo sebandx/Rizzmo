@@ -48,7 +48,7 @@ public class SelectionManager : MonoBehaviour
         Debug.Log(coralDesc.description);
         if (coralDesc != null) {
             Debug.Log("entered");
-            displayText.text = coralDesc.description;
+            displayText.text = (coralDesc.description);
             
         }
         else {
