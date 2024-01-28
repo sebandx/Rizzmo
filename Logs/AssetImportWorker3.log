@@ -1,0 +1,324 @@
+Unity Editor version:    2022.3.18f1 (d29bea25151d)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.2 (Build 23B92)
+Darwin version:          23.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/hongliu/Rizzmo
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51354
+Successfully changed project path to: /Users/hongliu/Rizzmo
+/Users/hongliu/Rizzmo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704457083712] Host "[IP] 172.16.60.242 [Port] 0 [Flags] 2 [Guid] 1435184569 [EditorId] 1435184569 [Version] 1048832 [Id] OSXEditor(0,Hongs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704457083712] Host "[IP] 172.16.60.242 [Port] 0 [Flags] 2 [Guid] 1435184569 [EditorId] 1435184569 [Version] 1048832 [Id] OSXEditor(0,Hongs-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 4.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/hongliu/Rizzmo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56354
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005204 seconds.
+- Loaded All Assemblies, in  0.544 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 870ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (162ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (211ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (247ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.871 seconds
+Domain Reload Profiling: 1611ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'BaseMapShader' shader 'ASESampleShaders/SimpleTerrainBase' not found
+Shader 'Nature/Terrain/StylizedTerrain': dependency 'AddPassShader' shader 'ASESampleShaders/Terrain/SimpleTerrainAddPass' not found
+Shader 'Distant Lands/Stylized Terrain First Pass': dependency 'BaseMapShader' shader 'Distant Lands/Stylized Terrain' not found
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (2.4 MB). Loaded Objects now: 3572.
+Memory consumption went from 148.3 MB to 146.0 MB.
+Total: 4.053285 ms (FindLiveObjects: 0.219124 ms CreateObjectMapping: 0.175992 ms MarkObjects: 3.177388 ms  DeleteObjects: 0.480024 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19705.383351 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Corals/Coral 3.mat
+  artifactKey: Guid(25318276aadb5024e843f515f4a1295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Corals/Coral 3.mat using Guid(25318276aadb5024e843f515f4a1295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fff56460e2e15287904164900eeb6b') in 0.416429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.436691 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Corals/Dynamic Coral 4.mat
+  artifactKey: Guid(126a113db0f583c4580d612bc101eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Corals/Dynamic Coral 4.mat using Guid(126a113db0f583c4580d612bc101eebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d245aa67132b7a3a190c284e5988dd5') in 0.268644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Kelp 4.mat
+  artifactKey: Guid(0b03d92ade305854e8fcf24f73bc344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Kelp 4.mat using Guid(0b03d92ade305854e8fcf24f73bc344e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c0b5a6c5690703c74dff150c318cf5') in 0.440250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Light.mat
+  artifactKey: Guid(fa3ebee75c052e0409a8b2bb9fcee475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Light.mat using Guid(fa3ebee75c052e0409a8b2bb9fcee475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9531d200f7c35b8b1d68d68a1b5c7e03') in 0.146950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.249600 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sea Base/Metal 1.mat
+  artifactKey: Guid(2fe05f522921f6140a2a2d6684857068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sea Base/Metal 1.mat using Guid(2fe05f522921f6140a2a2d6684857068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c11e767c2b95f9380298b743c0c3ba2') in 0.074726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Rock 2.mat
+  artifactKey: Guid(dac3ea97d6bd8f2459885caaa05f9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Rock 2.mat using Guid(dac3ea97d6bd8f2459885caaa05f9801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f37ef7954fce477e1f9788b5bbfc88') in 0.016023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Meshes/Underwater Caves.fbx
+  artifactKey: Guid(934362735d842b9448a8ee15ab9e9597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Meshes/Underwater Caves.fbx using Guid(934362735d842b9448a8ee15ab9e9597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d102f77cedc0d6698d9c0c3cac5e63') in 0.241210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sharks/Mouth.mat
+  artifactKey: Guid(2dbef92cc0b753b48b77276431505147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sharks/Mouth.mat using Guid(2dbef92cc0b753b48b77276431505147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4929e8b14291517187c3c7166dd5f7') in 0.010347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Seagrass 2.mat
+  artifactKey: Guid(3311160f6a7e4b84dbfc9c8374f1cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Seagrass 2.mat using Guid(3311160f6a7e4b84dbfc9c8374f1cb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d88e4b22d2ebdb50e5dc42f97c417fe') in 0.178226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sea Base/Wall 2.mat
+  artifactKey: Guid(65a834c4ba046ab42a8e5e4c0976175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sea Base/Wall 2.mat using Guid(65a834c4ba046ab42a8e5e4c0976175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848f7236cfc6c5b907560d5011229bcd') in 0.008388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Tropical Fish.mat
+  artifactKey: Guid(dab5a777802bb954cab7f4ff89e78de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Tropical Fish.mat using Guid(dab5a777802bb954cab7f4ff89e78de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8880afe963494b590204a5980c3f337') in 0.274760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Meshes/Debris.fbx
+  artifactKey: Guid(702452e205bcfa843aeeb97d8d7a6aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Meshes/Debris.fbx using Guid(702452e205bcfa843aeeb97d8d7a6aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519edbd3dd6588fc830021029312c5cc') in 0.426636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sharks/Skin 2.mat
+  artifactKey: Guid(cf9245da67aaa644fb09c212ddf16eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Sharks/Skin 2.mat using Guid(cf9245da67aaa644fb09c212ddf16eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1ea1acdaca01dca3f4251f6d1b6eb9') in 0.008430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Rock.mat
+  artifactKey: Guid(666e56d92f9c3004ab5dd573b83d1f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Rock.mat using Guid(666e56d92f9c3004ab5dd573b83d1f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36b81645e2e3ca11efc8980e2e105b4') in 0.008549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 2.mat
+  artifactKey: Guid(a0b1ad20c017fc44f98a0690ea703599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Distant Lands/Thalassophobia - Low Poly Oceans/Contents/Materials/Water Fog 2.mat using Guid(a0b1ad20c017fc44f98a0690ea703599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cad94d6003c9697d3988f9273dcee36') in 0.073042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

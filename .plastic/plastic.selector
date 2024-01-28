@@ -1,0 +1,4 @@
+repository "Rizzmo@giantsquid023@cloud"
+  path "/"
+    br "/main"
+    co "/main"
